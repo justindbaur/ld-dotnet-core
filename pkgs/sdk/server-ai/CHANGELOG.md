@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.10.0](https://github.com/justindbaur/ld-dotnet-core/compare/LaunchDarkly.ServerSdk.Ai-v0.9.3...LaunchDarkly.ServerSdk.Ai-v0.10.0) (2026-03-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename model.id and provider.id to name ([#61](https://github.com/justindbaur/ld-dotnet-core/issues/61))
+* rename _ldMeta.versionKey to variationKey ([#62](https://github.com/justindbaur/ld-dotnet-core/issues/62))
+
+### Features
+
+* Add `TrackError` to mirror `TrackSuccess` ([#64](https://github.com/justindbaur/ld-dotnet-core/issues/64)) ([7acc574](https://github.com/justindbaur/ld-dotnet-core/commit/7acc574a56299a2058c1a357d54d3df5091a8f02))
+* Add variation version to AI metric data ([#71](https://github.com/justindbaur/ld-dotnet-core/issues/71)) ([ac3e927](https://github.com/justindbaur/ld-dotnet-core/commit/ac3e927ae36546cf0b849abd60f2c21bb5864daa))
+* added provider and model to ai tracker ([#145](https://github.com/justindbaur/ld-dotnet-core/issues/145)) ([2ba2dd4](https://github.com/justindbaur/ld-dotnet-core/commit/2ba2dd4cd9c009dbb2c42a5f4792a6d0be8e84e6))
+* release server-ai ([#38](https://github.com/justindbaur/ld-dotnet-core/issues/38)) ([cf07fef](https://github.com/justindbaur/ld-dotnet-core/commit/cf07fef86f6ce86ed2e76f2a9f7115617f0e0738))
+* support multi-kind contexts in template interpolation ([#48](https://github.com/justindbaur/ld-dotnet-core/issues/48)) ([40ff539](https://github.com/justindbaur/ld-dotnet-core/commit/40ff5393d28033808bd026144921bd87198fa93a))
+* track TimeToFirstToken in LdAiConfigTracker ([#67](https://github.com/justindbaur/ld-dotnet-core/issues/67)) ([875dba5](https://github.com/justindbaur/ld-dotnet-core/commit/875dba5bc398085d3569a1f78f0039c81916217b))
+* update AI SDK with latest spec changes ([#50](https://github.com/justindbaur/ld-dotnet-core/issues/50)) ([b1a3a8c](https://github.com/justindbaur/ld-dotnet-core/commit/b1a3a8c8e8be0c0cc092ad5329b33a07019e8119))
+* Update to net8 ([ddae814](https://github.com/justindbaur/ld-dotnet-core/commit/ddae814250cb21e0de2b953808202addd7098c4c))
+
+
+### Bug Fixes
+
+* add setter for ModelId ([#54](https://github.com/justindbaur/ld-dotnet-core/issues/54)) ([bb6a1e9](https://github.com/justindbaur/ld-dotnet-core/commit/bb6a1e9a5bebc70ea4b78d8853fe66f6d8738c1c))
+* Add usage tracking to config method ([#151](https://github.com/justindbaur/ld-dotnet-core/issues/151)) ([95e1e7b](https://github.com/justindbaur/ld-dotnet-core/commit/95e1e7b8df6d04e4b92068c6c144c5702a48f244))
+* catch exceptions thrown by template interpolation ([#43](https://github.com/justindbaur/ld-dotnet-core/issues/43)) ([7a6cfd5](https://github.com/justindbaur/ld-dotnet-core/commit/7a6cfd503f517b5a024d4746d4fc5bfcd1a4ba69))
+* Improve usage reporting ([#228](https://github.com/justindbaur/ld-dotnet-core/issues/228)) ([376b6b0](https://github.com/justindbaur/ld-dotnet-core/commit/376b6b0cbca28c7b49e5f64ee54b1f6d317d99fa))
+* Make defaultValue optional with a disabled default ([#232](https://github.com/justindbaur/ld-dotnet-core/issues/232)) ([f69d420](https://github.com/justindbaur/ld-dotnet-core/commit/f69d42034bb960f83b831d2edf6788f70a20ceed))
+* Remove deprecated track generation event ([#143](https://github.com/justindbaur/ld-dotnet-core/issues/143)) ([ac1bb78](https://github.com/justindbaur/ld-dotnet-core/commit/ac1bb7835e05ee26ed72251cc443e740cfe0b11d))
+* rename ModelConfig method to Config ([#52](https://github.com/justindbaur/ld-dotnet-core/issues/52)) ([a98db42](https://github.com/justindbaur/ld-dotnet-core/commit/a98db42d57bac140f323b7ce13b385e74cee2bd7))
+
+
+### Code Refactoring
+
+* rename _ldMeta.versionKey to variationKey ([#62](https://github.com/justindbaur/ld-dotnet-core/issues/62)) ([3f7089d](https://github.com/justindbaur/ld-dotnet-core/commit/3f7089d6541c976d03e1040940a1350f5bd0d63c))
+* rename model.id and provider.id to name ([#61](https://github.com/justindbaur/ld-dotnet-core/issues/61)) ([a0d0705](https://github.com/justindbaur/ld-dotnet-core/commit/a0d07058eb0b8afff2b46dba385e73cac23b6bcd))
+
 ## [0.9.3](https://github.com/launchdarkly/dotnet-core/compare/LaunchDarkly.ServerSdk.Ai-v0.9.2...LaunchDarkly.ServerSdk.Ai-v0.9.3) (2026-03-05)
 
 
