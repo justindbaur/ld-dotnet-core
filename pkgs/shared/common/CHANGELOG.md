@@ -2,6 +2,20 @@
 
 All notable changes to `LaunchDarkly.CommonSdk` will be documented in this file. For full release notes for the projects that depend on this project, see their respective changelogs. This file describes changes only to the common code. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [7.2.0](https://github.com/justindbaur/ld-dotnet-core/compare/LaunchDarkly.CommonSdk-v7.1.1...LaunchDarkly.CommonSdk-v7.2.0) (2026-03-14)
+
+
+### Features
+
+* Add experimental support for plugins ([#140](https://github.com/justindbaur/ld-dotnet-core/issues/140)) ([f00a718](https://github.com/justindbaur/ld-dotnet-core/commit/f00a718cd9cb1f10a449e07b3ee1f0a0d3d15903))
+
+
+### Bug Fixes
+
+* [#104](https://github.com/justindbaur/ld-dotnet-core/issues/104) dependency optimisation ([#111](https://github.com/justindbaur/ld-dotnet-core/issues/111)) ([2c7ff62](https://github.com/justindbaur/ld-dotnet-core/commit/2c7ff629a4c16ad866c6e4ea5b24abc622942f0e))
+* Add validation format check for SDK key ([#163](https://github.com/justindbaur/ld-dotnet-core/issues/163)) ([02c6ed7](https://github.com/justindbaur/ld-dotnet-core/commit/02c6ed793f1984cce878f0c53667476533acb896))
+* Bump System.Text.Json from 6.0.0 to 6.0.10 ([#110](https://github.com/justindbaur/ld-dotnet-core/issues/110)) ([3673796](https://github.com/justindbaur/ld-dotnet-core/commit/36737961880c807b8f9d5bd6cc7313efb4b3ad26))
+
 ## [7.1.1](https://github.com/launchdarkly/dotnet-core/compare/LaunchDarkly.CommonSdk-v7.1.0...LaunchDarkly.CommonSdk-v7.1.1) (2025-09-26)
 
 
