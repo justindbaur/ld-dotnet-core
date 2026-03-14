@@ -1,5 +1,33 @@
 # Changelog
 
+## [8.12.0](https://github.com/justindbaur/ld-dotnet-core/compare/LaunchDarkly.ServerSdk-v8.11.1...LaunchDarkly.ServerSdk-v8.12.0) (2026-03-14)
+
+
+### Features
+
+* Add environment ID support for hooks. ([#81](https://github.com/justindbaur/ld-dotnet-core/issues/81)) ([49149f2](https://github.com/justindbaur/ld-dotnet-core/commit/49149f2509a4a94e77f36414708d73e368b0acc5))
+* Add experimental plugin support ([#139](https://github.com/justindbaur/ld-dotnet-core/issues/139)) ([b34431e](https://github.com/justindbaur/ld-dotnet-core/commit/b34431e171f97031ace2d03d5a9347e14fa01df7))
+* **experimental:** Release EAP support for FDv2 data system. ([d78799a](https://github.com/justindbaur/ld-dotnet-core/commit/d78799acb38323c8ca7207046b41570e1d333a28))
+* Inline context for custom and migrations op events ([#94](https://github.com/justindbaur/ld-dotnet-core/issues/94)) ([6e4fcc7](https://github.com/justindbaur/ld-dotnet-core/commit/6e4fcc7cde62c30130da65c34e144dcc925a5e8e))
+* report prerequisite relations in AllFlagState ([#19](https://github.com/justindbaur/ld-dotnet-core/issues/19)) ([43da95c](https://github.com/justindbaur/ld-dotnet-core/commit/43da95c85eb0766794c5f0dfb52d1d836b6deb17))
+* Update to net8 ([ddae814](https://github.com/justindbaur/ld-dotnet-core/commit/ddae814250cb21e0de2b953808202addd7098c4c))
+
+
+### Bug Fixes
+
+* [#104](https://github.com/justindbaur/ld-dotnet-core/issues/104) dependency optimisation ([#111](https://github.com/justindbaur/ld-dotnet-core/issues/111)) ([2c7ff62](https://github.com/justindbaur/ld-dotnet-core/commit/2c7ff629a4c16ad866c6e4ea5b24abc622942f0e))
+* Bump Internal SDK to 3.5.4 and Common SDK to 7.1.0 ([#154](https://github.com/justindbaur/ld-dotnet-core/issues/154)) ([2746c1a](https://github.com/justindbaur/ld-dotnet-core/commit/2746c1aa06628cb8af7ff03a65c2b7542195aeff))
+* Bump Internal SDK version ([#112](https://github.com/justindbaur/ld-dotnet-core/issues/112)) ([3cb5ae4](https://github.com/justindbaur/ld-dotnet-core/commit/3cb5ae4e1de89f55d9221997c3ba2c7179ae4a2d))
+* IfMatchContext/AndMatchContext utilize context kind. ([#225](https://github.com/justindbaur/ld-dotnet-core/issues/225)) ([95bc949](https://github.com/justindbaur/ld-dotnet-core/commit/95bc9495984976833efd736f36fc4023c37eb663))
+* improved accuracy of stream interruption error message. ([#12](https://github.com/justindbaur/ld-dotnet-core/issues/12)) ([bd6b413](https://github.com/justindbaur/ld-dotnet-core/commit/bd6b413961238d87d71b4d7539abb2c2ed5bb863))
+* Invalid circular reference detection for nested segments ([#137](https://github.com/justindbaur/ld-dotnet-core/issues/137)) ([98f418e](https://github.com/justindbaur/ld-dotnet-core/commit/98f418e14f3c40057cf63276d1bbd2ea83d6e592))
+* Track latencies greater than 1 second ([#133](https://github.com/justindbaur/ld-dotnet-core/issues/133)) ([4416c86](https://github.com/justindbaur/ld-dotnet-core/commit/4416c86fdf6deab170538fda4dd9474860c85892))
+* Update CommonSDK to v7.0.1 ([#126](https://github.com/justindbaur/ld-dotnet-core/issues/126)) ([fad338e](https://github.com/justindbaur/ld-dotnet-core/commit/fad338e651ffe856d6cf5c6e71ba6ff1526d422a))
+* Update EventSource to 5.2.1 ([#159](https://github.com/justindbaur/ld-dotnet-core/issues/159)) ([35d08d7](https://github.com/justindbaur/ld-dotnet-core/commit/35d08d7160512850c6d3a81e4fc312696cbb808e))
+* Update FileDataSource to process reload triggers under lock. ([#199](https://github.com/justindbaur/ld-dotnet-core/issues/199)) ([75f51c6](https://github.com/justindbaur/ld-dotnet-core/commit/75f51c67bff8ccf36035a948763998c10f083dbd))
+* Use thread-safe hash for big segments hashing. ([#180](https://github.com/justindbaur/ld-dotnet-core/issues/180)) ([06196d8](https://github.com/justindbaur/ld-dotnet-core/commit/06196d881d306e2bd09631469c657a4f11685fcc))
+* Validate string format of SDK key ([#162](https://github.com/justindbaur/ld-dotnet-core/issues/162)) ([27a26fb](https://github.com/justindbaur/ld-dotnet-core/commit/27a26fb9e226f7e5208928d9df43fbd6d5a68037))
+
 ## [8.11.1](https://github.com/launchdarkly/dotnet-core/compare/LaunchDarkly.ServerSdk-v8.11.0...LaunchDarkly.ServerSdk-v8.11.1) (2026-02-17)
 
 
