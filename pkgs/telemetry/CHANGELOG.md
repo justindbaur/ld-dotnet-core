@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.5.0](https://github.com/justindbaur/ld-dotnet-core/compare/LaunchDarkly.ServerSdk.Telemetry-v1.4.0...LaunchDarkly.ServerSdk.Telemetry-v1.5.0) (2026-03-14)
+
+
+### Features
+
+* add all available attributes to a span ([#167](https://github.com/justindbaur/ld-dotnet-core/issues/167)) ([7350aac](https://github.com/justindbaur/ld-dotnet-core/commit/7350aac8ef35630b0273d3b12d34e77fa682ff9c))
+* Add environment id support for the OTEL hook. ([#82](https://github.com/justindbaur/ld-dotnet-core/issues/82)) ([c2ed519](https://github.com/justindbaur/ld-dotnet-core/commit/c2ed519e64dacccad3e74445e4f3b132dd3f4edb))
+* Support 9x of System.Diagnostics.DiagnosticSource. ([#149](https://github.com/justindbaur/ld-dotnet-core/issues/149)) ([d935df6](https://github.com/justindbaur/ld-dotnet-core/commit/d935df601f2b9bfe2d65fcd0a4e78dec1f7fe2f7))
+* Update to net8 ([ddae814](https://github.com/justindbaur/ld-dotnet-core/commit/ddae814250cb21e0de2b953808202addd7098c4c))
+* Updating semantic conventions ([#148](https://github.com/justindbaur/ld-dotnet-core/issues/148)) ([a73d332](https://github.com/justindbaur/ld-dotnet-core/commit/a73d3320a16d628f44b38d2a09230835d808a41d))
+
 ## [1.4.0](https://github.com/launchdarkly/dotnet-core/compare/LaunchDarkly.ServerSdk.Telemetry-v1.3.0...LaunchDarkly.ServerSdk.Telemetry-v1.4.0) (2025-10-06)
 
 
