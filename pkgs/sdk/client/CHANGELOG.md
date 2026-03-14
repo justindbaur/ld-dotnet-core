@@ -3,6 +3,29 @@
 All notable changes to the LaunchDarkly Client-Side SDK for .NET will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org).
 
+## [5.8.0](https://github.com/justindbaur/ld-dotnet-core/compare/LaunchDarkly.ClientSdk-v5.7.0...LaunchDarkly.ClientSdk-v5.8.0) (2026-03-14)
+
+
+### Features
+
+* Add Identify hooks to Client SDK ([#234](https://github.com/justindbaur/ld-dotnet-core/issues/234)) ([ddbb81f](https://github.com/justindbaur/ld-dotnet-core/commit/ddbb81fd3be7bf7b6c49962c5fa4b2a93b9cf44c))
+* Add plugin support to Client SDK ([#229](https://github.com/justindbaur/ld-dotnet-core/issues/229)) ([ce5cdd9](https://github.com/justindbaur/ld-dotnet-core/commit/ce5cdd989ef3850e80a61125b4cc3c36ae23b1a9))
+* client-side prerequisite events ([#24](https://github.com/justindbaur/ld-dotnet-core/issues/24)) ([f5828cb](https://github.com/justindbaur/ld-dotnet-core/commit/f5828cb2999cda2ebe5a36c739f54f2b326f4a68))
+* Inline context for custom and migration op events in Client SDK ([#96](https://github.com/justindbaur/ld-dotnet-core/issues/96)) ([6774539](https://github.com/justindbaur/ld-dotnet-core/commit/6774539af1a2f87b96ae3e647fdcdc5663c791ab))
+* Update SDK client to net8 ([aea1514](https://github.com/justindbaur/ld-dotnet-core/commit/aea1514b104007d703aafa58adc2ff318f8182b1))
+* Update to net8 ([ddae814](https://github.com/justindbaur/ld-dotnet-core/commit/ddae814250cb21e0de2b953808202addd7098c4c))
+
+
+### Bug Fixes
+
+* [#104](https://github.com/justindbaur/ld-dotnet-core/issues/104) dependency optimisation ([#111](https://github.com/justindbaur/ld-dotnet-core/issues/111)) ([2c7ff62](https://github.com/justindbaur/ld-dotnet-core/commit/2c7ff629a4c16ad866c6e4ea5b24abc622942f0e))
+* Bump Internal SDK to 3.5.2 ([#135](https://github.com/justindbaur/ld-dotnet-core/issues/135)) ([75db503](https://github.com/justindbaur/ld-dotnet-core/commit/75db503c537f6d06db60747f6357825827efaefe))
+* Bump Internal SDK to 3.5.4 and Common SDK to 7.1.0 ([#154](https://github.com/justindbaur/ld-dotnet-core/issues/154)) ([2746c1a](https://github.com/justindbaur/ld-dotnet-core/commit/2746c1aa06628cb8af7ff03a65c2b7542195aeff))
+* Bump Internal SDK version ([#112](https://github.com/justindbaur/ld-dotnet-core/issues/112)) ([3cb5ae4](https://github.com/justindbaur/ld-dotnet-core/commit/3cb5ae4e1de89f55d9221997c3ba2c7179ae4a2d))
+* Update CommonSDK to v7.0.1 ([#126](https://github.com/justindbaur/ld-dotnet-core/issues/126)) ([fad338e](https://github.com/justindbaur/ld-dotnet-core/commit/fad338e651ffe856d6cf5c6e71ba6ff1526d422a))
+* Update EventSource to 5.2.1 ([#159](https://github.com/justindbaur/ld-dotnet-core/issues/159)) ([35d08d7](https://github.com/justindbaur/ld-dotnet-core/commit/35d08d7160512850c6d3a81e4fc312696cbb808e))
+* Validate string format of SDK key ([#162](https://github.com/justindbaur/ld-dotnet-core/issues/162)) ([27a26fb](https://github.com/justindbaur/ld-dotnet-core/commit/27a26fb9e226f7e5208928d9df43fbd6d5a68037))
+
 ## [5.7.0](https://github.com/launchdarkly/dotnet-core/compare/LaunchDarkly.ClientSdk-v5.6.0...LaunchDarkly.ClientSdk-v5.7.0) (2026-03-13)
 
 
